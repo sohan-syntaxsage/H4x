@@ -1,0 +1,396 @@
+Find Admin
+***********
+1. inurl:admin
+2. inurl:admin/login
+3. inurl:adminpanel
+4. inurl:adminarea
+5. inurl:cpanel
+6. inurl:adminsite
+7. inurl:administrator
+8. inurl:admin_login
+9. inurl:adminlog
+10. inurl:adminconsole
+11. intitle:"admin login"
+12. intitle:"admin panel"
+13. inurl:login/admin
+14. inurl:admin/dashboard
+15. inurl:admin/home
+16. site:.com inurl:admin
+17. site:.org inurl:admin
+18. site:.net inurl:admin
+19. site:.edu inurl:admin
+20. site:.gov inurl:admin
+21. inurl:admin/index.php
+22. inurl:admin/index.html
+23. inurl:admin/index.asp
+24. inurl:admin.asp
+25. inurl:admin.html
+26. inurl:admin.php
+27. inurl:admin.aspx
+28. inurl:administrator/login.php
+29. inurl:adminpanel/login.php
+30. inurl:cpanel/login
+31. inurl:admin.php?page=login
+32. inurl:dashboard/login
+33. intitle:"admin dashboard"
+34. inurl:secure/admin
+35. inurl:admin/secure
+36. inurl:adminlogin.asp
+37. inurl:admincontrol
+38. inurl:panel/login
+39. inurl:adminlogin.jsp
+40. inurl:admin1
+41. inurl:admin2
+42. inurl:adminarea1
+43. inurl:adminarea2
+44. inurl:cms/admin
+45. inurl:backend/login
+46. inurl:staff/login
+47. inurl:moderator/login
+48. inurl:manage/login
+49. intitle:"Control Panel Login"
+50. intitle:"index of" admin
+51. intitle:"admin access"
+52. intitle:"backend login"
+53. inurl:admin.asp
+54. inurl:admin.aspx
+55. inurl:administrator.asp
+56. inurl:administrator.aspx
+57. inurl:admin/account
+58. inurl:adminpanel/account
+59. inurl:adminLogin
+60. inurl:administratorLogin
+61. inurl:admin/home.php
+62. inurl:admincp
+63. inurl:adminarea/index.php
+64. inurl:admin-area/login
+65. inurl:admin_area/admin
+66. inurl:system/admin
+67. inurl:member/admin
+68. inurl:members/admin
+69. inurl:users/admin
+70. inurl:login/admin/index
+71. inurl:admin/index/login
+72. inurl:adminpanel/index
+73. inurl:admin_portal
+74. inurl:admin_zone
+75. inurl:admin-login
+76. inurl:admin_signin
+77. inurl:adminaccess
+78. inurl:admin_console
+79. inurl:admin_dir
+80. inurl:admin_tools
+81. inurl:admin_pages
+82. inurl:admincpanel
+83. inurl:secureadmin
+84. inurl:webadmin
+85. inurl:admininterface
+86. inurl:adminsection
+87. inurl:adminhtml
+88. inurl:admin_module
+89. inurl:admincenter
+90. inurl:admin_zone_login
+91. inurl:login/to/admin
+92. inurl:access/admin
+93. inurl:adminview
+94. inurl:adminwindow
+95. inurl:adminframe
+96. inurl:adminpage
+97. inurl:adminaccesspanel
+98. inurl:controlpanel/admin
+99. inurl:adminoptions
+100. inurl:superadmin
+101. inurl:wp-admin
+102. inurl:wp-login.php
+103. inurl:joomla/administrator
+104. inurl:drupal/admin
+105. inurl:user/login
+106. inurl:cgi-bin/login
+107. inurl:typo3/login
+108. inurl:sitecore/login
+109. inurl:umbraco/login
+110. inurl:admin/index.cfm
+111. inurl:phpmyadmin
+112. intitle:"phpmyadmin"
+113. intitle:"index of" phpmyadmin
+114. inurl:backend/admin
+115. intitle:"login" inurl:admin
+116. inurl:admin/login.jsp
+117. intitle:"restricted area" inurl:admin
+118. intitle:"login page" inurl:admin
+119. intitle:"site administration"
+120. inurl:moderator.asp
+121. inurl:moderator.php
+122. intitle:"web admin" inurl:admin
+123. inurl:secure_area
+124. inurl:adminconsole.jsp
+125. inurl:adminlogin.asp
+126. inurl:adminlogin.aspx
+127. intitle:"Administrator Login"
+128. inurl:admin-login.jsp
+129. inurl:adminarea.asp
+130. inurl:adminarea.aspx
+131. intitle:"index of" adminpanel
+132. intitle:"index of" adminsite
+133. inurl:adminsite.asp
+134. inurl:adminsite.aspx
+135. inurl:admin123
+136. inurl:superuser
+137. inurl:super-admin
+138. intitle:"Super Admin"
+139. intitle:"CMS Admin Panel"
+140. inurl:cmslogin
+141. inurl:cms/adminlogin
+142. inurl:/admin_console/
+143. inurl:/adminsite/
+144. inurl:/_admin/
+145. inurl:/cms/admin/
+146. inurl:/backend/
+147. inurl:/secret/
+148. inurl:/private/
+149. inurl:/.env
+150. inurl:/.git
+151. inurl:/database.yml
+152. inurl:/web.config
+153. inurl:/.htaccess
+154. inurl:/config.ini
+155. inurl:/admin/config
+156. inurl:/admin/settings
+157. inurl:/admin.php?login
+158. inurl:/login.php?admin
+159. inurl:/manage/config
+160. inurl:/administrator.php
+161. inurl:/controlpanel.php
+162. inurl:/admincp/
+163. inurl:/adminportal/
+164. inurl:/adminarea/
+165. inurl:/adminzone/
+166. intitle:"index of" /admin/
+167. intitle:"index of" /cpanel/
+168. intitle:"index of" /administrator/
+169. intitle:"index of" /adminarea/
+170. filetype:env inurl:".env"
+171. filetype:log inurl:"error"
+172. filetype:sql inurl:backup
+173. filetype:bak inurl:"backup"
+174. filetype:xml inurl:admin
+175. filetype:ini inurl:config
+176. filetype:conf inurl:apache
+177. filetype:db inurl:admin
+178. filetype:inc inurl:admin
+179. filetype:swp inurl:admin
+180. filetype:cfg inurl:admin
+181. filetype:json inurl:admin
+182. filetype:txt inurl:admin
+183. filetype:xls inurl:admin
+184. filetype:csv inurl:admin
+185. filetype:doc inurl:admin
+186. filetype:pdf inurl:admin
+187. intitle:"Admin Console" site:*.bd
+188. intitle:"Login Panel" site:*.gov
+189. site:*.edu inurl:admin
+190. site:*.org inurl:login
+191. site:*.mil inurl:admin
+192. site:*.bank inurl:login
+193. site:*.gov inurl:config
+194. site:*.com.bd inurl:admin
+101. inurl:wp-admin
+102. inurl:wp-login.php
+103. inurl:joomla/administrator
+104. inurl:drupal/admin
+105. inurl:user/login
+106. inurl:cgi-bin/login
+107. inurl:typo3/login
+108. inurl:sitecore/login
+109. inurl:umbraco/login
+110. inurl:admin/index.cfm
+111. inurl:phpmyadmin
+112. intitle:"phpmyadmin"
+113. intitle:"index of" phpmyadmin
+114. inurl:backend/admin
+115. intitle:"login" inurl:admin
+116. inurl:admin/login.jsp
+117. intitle:"restricted area" inurl:admin
+118. intitle:"login page" inurl:admin
+119. intitle:"site administration"
+120. inurl:moderator.asp
+121. inurl:moderator.php
+122. intitle:"web admin" inurl:admin
+123. inurl:secure_area
+124. inurl:adminconsole.jsp
+125. inurl:adminlogin.asp
+126. inurl:adminlogin.aspx
+127. intitle:"Administrator Login"
+128. inurl:admin-login.jsp
+129. inurl:adminarea.asp
+130. inurl:adminarea.aspx
+131. intitle:"index of" adminpanel
+132. intitle:"index of" adminsite
+133. inurl:adminsite.asp
+134. inurl:adminsite.aspx
+135. inurl:admin123
+136. inurl:superuser
+137. inurl:super-admin
+138. intitle:"Super Admin"
+139. intitle:"CMS Admin Panel"
+140. inurl:cmslogin
+141. inurl:cms/adminlogin
+142. inurl:/admin_console/
+143. inurl:/adminsite/
+144. inurl:/_admin/
+145. inurl:/cms/admin/
+146. inurl:/backend/
+147. inurl:/secret/
+148. inurl:/private/
+149. inurl:/.env
+150. inurl:/.git
+151. inurl:/database.yml
+152. inurl:/web.config
+153. inurl:/.htaccess
+154. inurl:/config.ini
+155. inurl:/admin/config
+156. inurl:/admin/settings
+157. inurl:/admin.php?login
+158. inurl:/login.php?admin
+159. inurl:/manage/config
+160. inurl:/administrator.php
+161. inurl:/controlpanel.php
+162. inurl:/admincp/
+163. inurl:/adminportal/
+164. inurl:/adminarea/
+165. inurl:/adminzone/
+166. intitle:"index of" /admin/
+167. intitle:"index of" /cpanel/
+168. intitle:"index of" /administrator/
+169. intitle:"index of" /adminarea/
+170. filetype:env inurl:".env"
+171. filetype:log inurl:"error"
+172. filetype:sql inurl:backup
+173. filetype:bak inurl:"backup"
+174. filetype:xml inurl:admin
+175. filetype:ini inurl:config
+176. filetype:conf inurl:apache
+177. filetype:db inurl:admin
+178. filetype:inc inurl:admin
+179. filetype:swp inurl:admin
+180. filetype:cfg inurl:admin
+181. filetype:json inurl:admin
+182. filetype:txt inurl:admin
+183. filetype:xls inurl:admin
+184. filetype:csv inurl:admin
+185. filetype:doc inurl:admin
+186. filetype:pdf inurl:admin
+187. intitle:"Admin Console" site:*.bd
+188. intitle:"Login Panel" site:*.gov
+189. site:*.edu inurl:admin
+190. site:*.org inurl:login
+191. site:*.mil inurl:admin
+192. site:*.bank inurl:login
+193. site:*.gov inurl:config
+194. site:*.com.bd inurl:admin
+195. inurl:wp-admin
+196. inurl:wp-login.php
+197. inurl:joomla/administrator
+198. inurl:drupal/admin
+199. inurl:user/login
+200. inurl:cgi-bin/login
+201. inurl:typo3/login
+202. inurl:sitecore/login
+203. inurl:umbraco/login
+204. inurl:admin/index.cfm
+205. inurl:phpmyadmin
+206. intitle:"phpmyadmin"
+207. intitle:"index of" phpmyadmin
+208. inurl:backend/admin
+209. intitle:"login" inurl:admin
+210. inurl:admin/login.jsp
+211. intitle:"restricted area" inurl:admin
+212. intitle:"login page" inurl:admin
+213. intitle:"site administration"
+214. inurl:moderator.asp
+215. inurl:moderator.php
+216. intitle:"web admin" inurl:admin
+217. inurl:secure_area
+218. inurl:adminconsole.jsp
+219. inurl:adminlogin.asp
+220. inurl:adminlogin.aspx
+221. intitle:"Administrator Login"
+222. inurl:admin-login.jsp
+223. inurl:adminarea.asp
+224. inurl:adminarea.aspx
+225. intitle:"index of" adminpanel
+226. intitle:"index of" adminsite
+227. inurl:adminsite.asp
+228. inurl:adminsite.aspx
+229. inurl:admin123
+230. inurl:superuser
+231. inurl:super-admin
+232. intitle:"Super Admin"
+233. intitle:"CMS Admin Panel"
+234. inurl:cmslogin
+235. inurl:cms/adminlogin
+236. inurl:/admin_console/
+237. inurl:/adminsite/
+238. inurl:/_admin/
+239. inurl:/cms/admin/
+240. inurl:/backend/
+241. inurl:/secret/
+242. inurl:/private/
+243. inurl:/.env
+244. inurl:/.git
+245. inurl:/database.yml
+246. inurl:/web.config
+247. inurl:/.htaccess
+248. inurl:/config.ini
+249. inurl:/admin/config
+250. inurl:/admin/settings
+251. inurl:/admin.php?login
+252. inurl:/login.php?admin
+253. inurl:/manage/config
+254. inurl:/administrator.php
+255. inurl:/controlpanel.php
+256. inurl:/admincp/
+257. inurl:/adminportal/
+258. inurl:/adminarea/
+259. inurl:/adminzone/
+260. intitle:"index of" /admin/
+261. intitle:"index of" /cpanel/
+262. intitle:"index of" /administrator/
+263. intitle:"index of" /adminarea/
+264. filetype:env inurl:".env"
+265. filetype:log inurl:"error"
+266. filetype:sql inurl:backup
+267. filetype:bak inurl:"backup"
+268. filetype:xml inurl:admin
+269. filetype:ini inurl:config
+270. filetype:conf inurl:apache
+271. filetype:db inurl:admin
+272. filetype:inc inurl:admin
+273. filetype:swp inurl:admin
+274. filetype:cfg inurl:admin
+275. filetype:json inurl:admin
+276. filetype:txt inurl:admin
+277. filetype:xls inurl:admin
+278. filetype:csv inurl:admin
+279. filetype:doc inurl:admin
+280. filetype:pdf inurl:admin
+281. intitle:"Admin Console" site:*.bd
+282. intitle:"Login Panel" site:*.gov
+283. site:*.edu inurl:admin
+284. site:*.org inurl:login
+285. site:*.mil inurl:admin
+286. site:*.bank inurl:login
+287. site:*.gov inurl:config
+288. site:*.com.bd inurl:admin
+289. inurl:wp-admin
+290. inurl:wp-login.php
+291. inurl:joomla/administrator
+292. inurl:drupal/admin
+293. inurl:user/login
+294. inurl:cgi-bin/login
+295. inurl:typo3/login
+296. inurl:sitecore/login
+297. inurl:umbraco/login
+298. inurl:admin/index.cfm
+299. inurl:phpmyadmin
+300. intitle:"phpmyadmin"
